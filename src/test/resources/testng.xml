@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="LibraryAPITestSuite">
+    <test name="LibraryAPITests">
+        <classes>
+            <class name="com.example.Libarary.tests.Books.BookAPITest"/>
+            <class name="com.example.Libarary.tests.Members.MemberLoginTest"/>
+            <class name="com.example.Libarary.tests.Transactions.TransactionsApiTest"/>
+        </classes>
+    </test>
+</suite>
